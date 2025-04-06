@@ -68,8 +68,20 @@ https://github.com/IrfanMajeed699/IrfanMajeed699/blob/main/Sign_In%20Page.jpg?ra
 https://github.com/IrfanMajeed699/IrfanMajeed699/blob/main/Sign_Up%20Page.jpg?raw=true
 https://github.com/IrfanMajeed699/IrfanMajeed699/blob/main/Initial%20Heading%20Page.jpg?raw=true
 
-#  Code Highlights 
-## For Main.dart
+#  Code Highlights
+This function lets users share their list directly via WhatsApp.
+
+```dart
+void shareShoppingList(String listText) async {
+  final url = 'whatsapp://send?text=${Uri.encodeComponent(listText)}';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch WhatsApp';
+  }
+}
+
+### For Main.dart
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
