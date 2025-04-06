@@ -84,7 +84,7 @@ void main() async {
     runApp(const MyApp());
 }
 ### For Method to Load Headings
- Future<void> loadChecklistHeadings() async {
+  Future<void> loadChecklistHeadings() async {
     log("Loading checklist headings...");
     try {
   //    log('Loading checklist headings from SQLite...');
@@ -96,8 +96,10 @@ void main() async {
       userCatList.addAll(dbHeadings);
       // Populate headingList from database for display in UI
       headingList.value = await DatabaseHelper.instance.getChecklistHeadings();
+      //    log('Fetched checklist headings for UI display: $headingList and Heading ${headingList[3].heading} by ${headingList[3].addedByUserId}');
       // Sort headingList: Incomplete first, then Completed
       // Refresh the headingList to update the UI
+      //  headingList.refresh();
       checkStatus.clear();
       for (var heading in headingList) {
         completionStatus[heading.id!] = heading.isCompleted;
