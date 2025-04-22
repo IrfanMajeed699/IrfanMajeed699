@@ -186,5 +186,4 @@ Map<String, dynamic> toJson() {
 # 📞 Contact Me
 📧 irsum556@gmail.com  
 📱 +92-300-4070847  
-🔗 WhatsApp: +92-310-1509209  
-🔗 [LinkedIn – Coming Soon]
+🔗 WhatsApp: +92-310-1509209
