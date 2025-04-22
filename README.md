@@ -9,9 +9,13 @@ including a real-time collaborative Shopping Checklist App integrated with Fireb
 Initially, I am seeking a part-time mobile development opportunity to further sharpen my skills and contribute to impactful projects.
 
 # Skills
-- Flutter (Dart), Firebase (Real-time DB, Authentication, Cloud Functions in Python),
-SQLite Database, Git & GitHub, APIs, JSON, GetX (State Management & Navigation)
-Debugging & Troubleshooting.
+- Flutter (Dart)
+- Firebase (Real-time DB, Authentication, Cloud Functions in Python)
+- SQLite Database
+- Git & GitHub
+- APIs,JSON
+- GetX (State Management & Navigation)
+- Debugging & Troubleshooting.
 - By using online blog’s assistance and AI tools, Root Cause Analysis of the problems & errors for troubleshooting & debugging while in debug and 
 release modes (Build APK’s, APK Splits & App Bundle files).
 
