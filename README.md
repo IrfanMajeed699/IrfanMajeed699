@@ -4,7 +4,7 @@ Although having a background of Industrial & Manufacturing Engineering and a sol
 at different managerial posts, I learned Flutter framework at my own with self-driven passion and motivation. I am ambitious to shift my career 
 from engineering to a full time mobile app developer in the long run and willing to enhance my skills into other software development fields 
 if required by the organization.
-I transitioned myself into software development in January 2024 and independently developed multiple complex production-ready Flutter applications, 
+I transitioned myself into software development and independently developed multiple complex production-ready Flutter applications, 
 including a real-time collaborative Shopping Checklist App integrated with Firebase.
 Initially, I am seeking a part-time mobile development opportunity to further sharpen my skills and contribute to impactful projects.
 
